@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+    background-color: skyblue;
+    height: 50px;
+    margin-top: -22px;
+    box-shadow: 0 4px 2cap black;
+    text-align: center;
+}
+.text{
+    text-shadow: 0 1px 4px black;
+    
+}
+.form{
+    margin : 0 auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0, .5);
+    border-radius: 10px;
+    
+}
+button{
+    background-color: skyblue;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    height: 25px;
+    width: 56px;
+}
+button:hover{
+    color: white;
+}
+input{
+    border: none;
+    background-color: aliceblue;
+    width: 240px;
+    height: 30px;
+    
+}
+.list{
+    margin:0 auto;
+    border-radius: 10%;
+}
+.list1{
+    margin-top: 3%;
+}
+.span{
+    float: right;
+    background-color: skyblue;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+.completed{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+#item3{
+    padding: 2%;
+    cursor: pointer;
+
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 1.5em;
+    font-weight:  bold;
+    text-align: center;
+    width: 100%;
+    background-color: skyblue;
+    padding: 10px;
+    box-shadow: 0 2px 15px 5px black;
+    text-shadow: 0 1px 2px black;
+    
+
+}
+.total{
+    margin: 45px;
+}
